@@ -3,7 +3,9 @@ import './FourSteps.css';
 
 class FourSteps extends Component {
     render() {
-        return( <div className="grey">Jestem szarym prostokątem</div>)
+        return(
+            <div className="grey">Four steps</div>
+        )
     }
 }
 

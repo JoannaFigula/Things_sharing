@@ -4,7 +4,7 @@ import './Foundations.css';
 class Foundations extends Component {
     render() {
         return(
-            <div className="green">Jestem zielonym prostokątem</div>
+            <div className="green">Foundations</div>
         )
     }
 }

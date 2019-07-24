@@ -10,17 +10,16 @@ import Contact from './Contact.js';
 
 class App extends Component {
 
-
     render() {
 
         return (
             <div className="App">
-                <Header />
-                <YellowBar />
-                <FourSteps />
-                <Foundations />
-                <AboutUs />
-                <Contact />
+                <Header id="header" />
+                <YellowBar id="yellowBar" />
+                <FourSteps id="fourSteps" />
+                <AboutUs id="aboutUs" />
+                <Foundations id="foundations" />
+                <Contact id="contact"/>
             </div>
         );
     }

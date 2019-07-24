@@ -4,7 +4,7 @@ import './YellowBar.css';
 class YellowBar extends Component {
     render() {
         return(
-            <div className="yellow">Jestem zółtym prostokątem</div>
+            <div className="yellow">YellowBar</div>
         )
     }
 }

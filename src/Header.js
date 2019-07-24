@@ -1,31 +1,23 @@
 import React, {Component} from 'react';
 import './Header.css';
+import Login from './Login.js';
+import Menu from './Menu.js';
+import Main from './Main.js';
 
 class Header extends Component {
     render() {
         return(
-            <div className="lightsalmon">Jestem lightsalmon prostokątem</div>
+            <>
+                <Login />
+                <Menu />
+                <Main />
+            </>
+
+
+
         )
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
