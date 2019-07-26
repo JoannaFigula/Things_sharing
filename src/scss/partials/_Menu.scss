@@ -1,0 +1,38 @@
+.menu{
+  width: 70%;
+  //border: 1px solid black;
+}
+.navigation {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.btns {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  font-size: 10px;
+  padding: 7px 20px;
+  margin-right: 10px;
+  //border: 1px solid #3c3c3c;
+  text-align: center;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Zaloguj - podświetlenie na zółto */
+.btns:hover {
+  border-color: #f9c910;
+}
+
+/* Zaloguj - transparentność*/
+.btn-hide {
+  border: 1px solid transparent;
+}
+
+/* Załóż konto - zółte krawędzie */
+.btn-start {
+  border: 1px solid black;
+}

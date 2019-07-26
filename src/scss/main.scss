@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*modules*/
+@import './modules/mixins';
+@import './modules/reset';
+@import './modules/all';
+
+
+/*partials*/
+@import './partials/AboutUs';
+@import './partials/Contact';
+@import './partials/Foundations';
+@import './partials/FourSteps';
+@import './partials/Header';
+@import './partials/Login';
+@import 'partials/StartHelp';
+@import './partials/Menu';
+@import './partials/YellowBar';
+

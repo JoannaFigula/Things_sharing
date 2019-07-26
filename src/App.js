@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import './App.css';
-import Header from './Header.js';
-import YellowBar from './YellowBar.js';
-import FourSteps from './FourSteps.js';
-import Foundations from './Foundations.js';
-import AboutUs from './AboutUs.js';
-import Contact from './Contact.js';
+import './App.scss';
+import Header from './Components/Header.js';
+import YellowBar from './Components/YellowBar.js';
+import FourSteps from './Components/FourSteps.js';
+import Foundations from './Components/Foundations.js';
+import AboutUs from './Components/AboutUs.js';
+import Contact from './Components/Contact.js';
 
 
 class App extends Component {
@@ -16,8 +16,8 @@ class App extends Component {
             <div className="App">
                 <Header id="header" />
                 <YellowBar id="yellowBar" />
-                <FourSteps id="fourSteps" />
-                <AboutUs id="aboutUs" />
+                <FourSteps id="yellowBar" />
+                <AboutUs name="aboutUs" />
                 <Foundations id="foundations" />
                 <Contact id="contact"/>
             </div>

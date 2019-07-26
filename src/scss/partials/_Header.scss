@@ -1,0 +1,12 @@
+@import './Login';
+@import './Menu';
+@import './StartHelp';
+
+.header {
+  background-image: url("./img/AdobeStock_77578232_1.jpg");
+  background-position: bottom left -150px;
+  background-repeat: no-repeat;
+  background-size: 700px;
+  height: 480px;
+//  position: relative;
+}

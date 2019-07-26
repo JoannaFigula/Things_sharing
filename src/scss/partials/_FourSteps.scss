@@ -1,0 +1,96 @@
+.fourSteps {
+  margin: 60px;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps {
+  padding: 20px 0;
+  width: 900px;
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.steps-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  width: 165px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.hands {
+  background-image: url("./img/select.jpg");
+}
+
+.arrow {
+  background-image: url("./img/pack.png");
+}
+
+.glasses {
+  background-image: url("./img/whoHelps.png");
+}
+
+.courier {
+  background-image: url("./img/orderCourier.png");
+}
+
+
+
+h2, .steps-item h4, p {
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+}
+
+//.steps-item h4:after {
+//  content: "";
+//  display: block;
+//  margin: 10px;
+//  padding: 0 calc(50% - 50px);
+//  width: 50px;
+//  height: 1px;
+//  background-color: #3c3c3c;
+//}
+
+.line {
+  border-bottom: 1px solid #3c3c3c;
+  width: 60px;
+  height: 1px;
+  margin: 10px;
+}
+
+.fourBtn{
+  font-size: 18px;
+  padding: 10px 10px;
+  margin: 0 20px;
+  border: 1px solid #3c3c3c;
+  text-align: center;
+  width: 160px;
+  height: 60px;
+  background: transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fourBtn:hover {
+  border-color: #f9c910;
+}
