@@ -17,7 +17,7 @@ class App extends Component {
                 <Header id="header" />
                 <YellowBar id="yellowBar" />
                 <FourSteps id="yellowBar" />
-                <AboutUs name="aboutUs" />
+                <AboutUs id="aboutUs" />
                 <Foundations id="foundations" />
                 <Contact id="contact"/>
             </div>

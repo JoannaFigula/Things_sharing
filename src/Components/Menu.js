@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link} from 'react-scroll';
 
 
 
@@ -9,7 +8,6 @@ class Menu extends Component {
     render() {
         const options = {
             activeClass:"active",
-            spy:true,
             smooth:true,
             offset:-200,
             duration:800,

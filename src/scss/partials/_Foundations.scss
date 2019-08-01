@@ -1,5 +1,178 @@
-.green {
-  width: 80%;
-  height: 200px;
-  background-color: green;
+.foundations {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 990px;
+  padding: 0 30px;
+  margin: 60px auto;
+  font-family: 'Open Sans', serif;
 }
+
+.fundations-buttons {
+  padding: 0;
+  margin: 20px 0;
+  list-style: none;
+  display: flex;
+}
+
+//.help--buttons li {
+//  margin: 0 10px;
+//}
+
+//.fundation-page {
+//  width: 100%;
+//  margin-top: 30px;
+//  display: none;
+//}
+
+//.fundation-page {
+//  display: block;
+//}
+
+.fundation-page > p {
+  margin: 0 auto 30px;
+  width: 40%;
+  //font-size: 14px;
+  text-align: center;
+  line-height: 25px;
+}
+
+//.fundation-page ul {
+//  list-style: none;
+//  padding: 0;
+//}
+
+
+.fundations-items li{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+//.fundations-items li:last-child {
+//  margin-bottom: 0;
+//}
+
+.fundations-items .col {
+  width: 100%;
+}
+
+
+//.fundations-items .col:last-child {
+//  text-align: right;
+//}
+
+//.fundations-items .col:after {
+//  content: "";
+//  width: 70%;
+//  height: 1px;
+//  display: block;
+//  position: relative;
+//  margin-top: 25px;
+//  background-color: #bcbcbc;
+//}
+
+
+//.fundations-items .col:last-child:after {
+//  float: right;
+//}
+
+
+.fundations-items .col .title {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
+.fundations-items .col .mission {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+
+}
+
+
+.fundations-items .col .text {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: right;
+  //border: 1px solid black;
+}
+
+
+.pagination {
+  //height: 20px;
+  //width: 20px;
+  list-style: none;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination .btn {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+}
+
+
+//.help--slides-pagination li {
+//  margin: 0 8px;
+//}
+
+
+.about-decoration-image {
+  width: 100%;
+  min-height: 14px;
+  background-image: url('./img/ornament.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.fundations-buttons .btns {
+  height: 40px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 7px 20px;
+  margin-right: 10px;
+  //border: 1px solid #3c3c3c;
+  text-align: center;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Zaloguj - podświetlenie na zółto */
+.btns:hover {
+  border-color: #f9c910;
+}
+
+/* Zaloguj - transparentność*/
+.btn-hide {
+  border: 1px solid transparent;
+}
+
+/* Załóż konto - zółte krawędzie */
+.btn-start {
+  border: 1px solid black;
+}
+
+
+//.newline {
+//  border-bottom: 1px solid black;
+//  width: 80%;
+//}
+//.newline-right {
+//  //float: right;
+//  border-bottom: 1px solid black;
+//  width: 80%;
+//}
