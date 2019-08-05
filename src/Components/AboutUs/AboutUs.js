@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 class AboutUs extends Component {
     render() {
         return(
-            <section className="about">
+            <section className="aboutUs">
 
             <div className="about-us container">
 

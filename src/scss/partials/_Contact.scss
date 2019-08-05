@@ -84,31 +84,31 @@ footer .bottom-line {
   margin-bottom: 12px;
 }
 
-.fb{
+.fb {
   background-image: url("./img/fb.png");
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 10px;
   border: none;
 }
 
-.insta{
+.insta {
   background-image: url("./img/insta.png");
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
+  border: none;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 10px;
-  border: none;
+
+
 }
 
-.copy {
-  padding-left: 700px;
-}
+//.copy {
+//  padding-left: 300px;
+//}
 
 .contactBtn{
   font-size: 16px;

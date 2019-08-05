@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Foundation from './data/foundation';
-import Organization from './data/organizations';
-import Local from './data/local';
+import Foundation from '../data/foundation';
+import Organization from '../data/organizations';
+import Local from '../data/local';
 import classnames from 'classnames';
 
 // import Pagination from "react-js-pagination";
