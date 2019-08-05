@@ -1,12 +1,9 @@
 import React, {Component} from 'react';
-import SharingSteps from "../SharingSteps/SharingSteps";
-
 
 class Registration extends Component {
     render() {
         return (
             <>
-                <SharingSteps />
             <section className="registration container">
                 <h2>Załóż konto</h2>
                 <div className="contact-decoration-image"></div>

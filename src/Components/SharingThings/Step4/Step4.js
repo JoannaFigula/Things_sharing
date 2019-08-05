@@ -3,7 +3,14 @@ import React, {Component} from 'react';
 class StepFour extends Component {
     render() {
         return(
-            <div>
+            <form onSubmit={(e) => {
+                e.preventDefault();
+                const result = {};
+                for (const val of e.target) {
+                    result[val.name] = val.value
+                }
+                this.props.onFinish(result)
+            }}>
                 <h3>Podaj adres oraz termin odbioru rzecz przez kuriera:</h3>
 
                 <div className="form-section form-section--columns">
@@ -50,9 +57,9 @@ class StepFour extends Component {
                 </div>
                 <div className="form-group form-group--buttons">
                     <button type="button" className="btn prev-step">Wstecz</button>
-                    <button type="button" className="btn next-step">Dalej</button>
+                    <button type="submit" className="btn next-step">Dalej</button>
                 </div>
-            </div>
+            </form>
         )
     }
 

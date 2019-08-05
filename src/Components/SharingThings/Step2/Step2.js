@@ -3,7 +3,10 @@ import React, {Component} from 'react';
 class StepTwo extends Component {
     render() {
         return(
-            <div>
+            <form onSubmit={(e) => {
+                e.preventDefault();
+                this.props.onNext(3, {bags: e.target.bags.value})
+            }}>
                 <h3>Podaj liczbę 60l worków, w które spakowałeś/aś rzeczy:</h3>
 
                 <div className="form-group form-inline">
@@ -14,10 +17,10 @@ class StepTwo extends Component {
                 </div>
 
                 <div className="form-group form-group--buttons">
-                    <button type="button" className="btn prev-step">Wstecz</button>
-                    <button type="button" className="btn next-step">Dalej</button>
+                    <button type="button" className="btn prev-step" onClick={() => this.props.onPrev()}>Wstecz</button>
+                    <button type="submit" className="btn next-step">Dalej</button>
                 </div>
-            </div>
+            </form>
 
         )
     }

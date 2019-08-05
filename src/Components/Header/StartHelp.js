@@ -13,7 +13,7 @@ class StartHelp extends Component {
                     <div className="about-decoration-image"> </div>
 
                     <ul className="startHelp-btns">
-                        <li><Link to="/registration" ><button className="bttn">Oddaj rzeczy </button></Link></li>
+                        <li><Link to="/sharing-things" ><button className="bttn">Oddaj rzeczy </button></Link></li>
                         <li><button className="bttn">Zorganizuj zbiórkę</button></li>
                     </ul>
                 </div>

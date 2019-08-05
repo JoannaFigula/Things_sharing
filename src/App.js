@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.scss';
-import Header from './Components/Header/Header.js';
+import SharingThings from './Components/SharingThings';
 import LandingPage from './Components/LandingPage';
 import Registration from './Components/Registration';
 import Login from './Components/Login';
@@ -24,6 +24,7 @@ class App extends Component {
                     <Switch>
                         <Route exact path="/" component={LandingPage} />
                         <Route path="/registration" component={Registration} />
+                        <Route path="/sharing-things" component={SharingThings} />
                         <Route path="/log" component={Login} />
                     </Switch>
                     <Contact id="contact"/>

@@ -3,12 +3,19 @@ import React, {Component} from 'react';
 class StepThree extends Component {
     render() {
         return(
-            <div>
+            <form onSubmit={(e) => {
+                e.preventDefault();
+                const result = {};
+                for (const val of e.target) {
+                    result[val.name] = val.value
+                }
+                this.props.onNext(4, result)
+            }}>
                 <h3>Wybierz organizacje, której chcesz pomóc:</h3>
 
                 <div className="form-group form-group--checkbox">
                     <label>
-                        <input type="radio" name="organization" value="old"/>
+                        <input type="radio" name="organization" value='Fundacja “Bez domu'/>
                         <span className="checkbox radio"> </span>
                         <span className="description">
                   <div className="title">Fundacja “Bez domu”</div>
@@ -22,7 +29,7 @@ class StepThree extends Component {
 
                 <div className="form-group form-group--checkbox">
                     <label>
-                        <input type="radio" name="organization" value="old"/>
+                        <input type="radio" name="organization" value='Fundacja “Dla dzieci"'/>
                         <span className="checkbox radio"> </span>
                         <span className="description">
                   <div className="title">Fundacja “Dla dzieci"</div>
@@ -35,10 +42,10 @@ class StepThree extends Component {
                 </div>
 
                 <div className="form-group form-group--buttons">
-                    <button type="button" className="btn prev-step">Wstecz</button>
-                    <button type="button" className="btn next-step">Dalej</button>
+                    <button type="button" className="btn prev-step" onClick={() => this.props.onPrev()}>Wstecz</button>
+                    <button type="submit" className="btn next-step">Dalej</button>
                 </div>
-            </div>
+            </form>
         )
     }
 
