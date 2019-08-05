@@ -48,6 +48,12 @@
   margin-top: 40px;
   height: 70px;
   width: 100%;
+   a{
+     text-decoration: none;
+     &:hover {
+       text-decoration: none;
+     }
+   }
 }
 
 .about-decoration-image {

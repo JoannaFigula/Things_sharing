@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom'
 
 class StartHelp extends Component {
     render() {
@@ -12,7 +13,7 @@ class StartHelp extends Component {
                     <div className="about-decoration-image"> </div>
 
                     <ul className="startHelp-btns">
-                        <li><button className="bttn">Oddaj rzeczy </button></li>
+                        <li><Link to="/registration" ><button className="bttn">Oddaj rzeczy </button></Link></li>
                         <li><button className="bttn">Zorganizuj zbiórkę</button></li>
                     </ul>
                 </div>

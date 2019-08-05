@@ -7,11 +7,11 @@ import StartHelp from './StartHelp.js';
 class Header extends Component {
     render() {
         return (
-            <section className="container header">
+            <header className="header">
                 <Login />
                 <Menu />
                 <StartHelp />
-            </section>
+            </header>
         )
     }
 }

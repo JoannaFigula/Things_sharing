@@ -43,12 +43,14 @@
 //  padding: 0;
 //}
 
-
-.fundations-items li{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 35px;
+.fundations-items {
+  min-height: 250px;
+  li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+  }
 }
 
 //.fundations-items li:last-child {

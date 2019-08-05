@@ -23,28 +23,4 @@ export default [
         mission: "Pomoc ludziom w trudnej sytuacji życiowej",
         items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
     },
-    {
-        id:5,
-        name: "Fundacja 'Dbam o zdrowie'",
-        mission: "Pomoc dzieciom",
-        items: "ubrania, jedzenie, sprzęt AGD, zabawki"
-    },
-    {
-        id:6,
-        name: "Fundacja 'Dbam o zdrowie'",
-        mission: "Pomoc dla osób nie posiadających miejsca zmieszkania",
-        items: "ubrania, jedzenie, ciepłe koce"
-    },
-    {
-        id:7,
-        name: "Fundacja 'Bez domu'",
-        mission: "Pomoc dla osób nie posiadających miejsca zmieszkania",
-        items: "ubrania, jedzenie, ciepłe koce"
-    },
-    {
-        id:8,
-        name: "Fundacja 'Dbam o zdrowie'",
-        mission: "Pomoc dla osób nie posiadających miejsca zmieszkania",
-        items: "ubrania, jedzenie, ciepłe koce"
-    }
 ];
